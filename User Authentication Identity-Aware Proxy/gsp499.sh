@@ -86,7 +86,7 @@ gcloud services enable appengineflex.googleapis.com
 
 # Step 6: Modify app.yaml for Python 3.9
 echo "${BOLD}${GREEN}Updating app.yaml to Python 3.9...${RESET}"
-sed -i 's/python37/python39/g' app.yaml
+sed -i 's/python37/python313/g' app.yaml
 
 # Step 7: Create App Engine app
 echo "${BOLD}${MAGENTA}Creating App Engine application...${RESET}"
